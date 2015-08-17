@@ -17,15 +17,15 @@ USAGE
 ===
 Type
 
-  python plot.py OPTIONS DATA_TYPE TRACING_RESULT_FILE OUT_FILE_NAME
+    python plot.py OPTIONS DATA_TYPE TRACING_RESULT_FILE OUT_FILE_NAME
 
 or change permission before using
 
-  chmod u+x plot.py
+    chmod u+x plot.py
 
 and use it directly
 
-  ./plot.py OPTIONS DATA_TYPE TRACING_RESULT_FILE OUT_FILE_NAME
+    ./plot.py OPTIONS DATA_TYPE TRACING_RESULT_FILE OUT_FILE_NAME
 
 for OPTIONS:
   * L3 - Plot the result of L3RateTracer 
@@ -33,4 +33,5 @@ for OPTIONS:
   * app - Plot the result of AppDelayTracer
 
 for DATA_TYPE please enter:
-  * **Packets**, **Kilobytes**, **PacketsRaw** or **KilobytesRaw** for L3RateTracer and L2Tracer  * **DelayS**, **DelayUS**, **RetxCount** or **HopCount** for AppDelayTracer
+  * **Packets**, **Kilobytes**, **PacketsRaw** or **KilobytesRaw** for L3RateTracer and L2Tracer
+  * **DelayS**, **DelayUS**, **RetxCount** or **HopCount** for AppDelayTracer
