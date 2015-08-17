@@ -11,7 +11,7 @@ The script has been tested on Ubuntu
 ###Ubuntu
 There are some dependencies have to be downloaded:
 
-  sudo apt-get install python gnuplot gnuplot-x11 python-gnuplot
+    sudo apt-get install python gnuplot gnuplot-x11 python-gnuplot
 
 USAGE
 ===
